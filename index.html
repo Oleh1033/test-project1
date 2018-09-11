@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -16,23 +18,25 @@
     <header class="header" id="header">
 
         <div class="container">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <a href=""><img id="logoDev" src="https://devrainsolutionscdn.azureedge.net/devrain/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class=" tog">
+                        <i class="fas fa-align-justify"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link nav1" href="#">About <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link nav1" href="#">Publications</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link nav1" href="#">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link nav1" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item active">
@@ -48,7 +52,7 @@
             <div class="row">
 
                 <div class="col-lg-12 justify-around">
-                    <div class="col-lg-2 pink-line">
+                    <div class="col-lg-2 col-md-9 col-12 pink-line">
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -157,7 +161,7 @@
                             <img class="img-project" src="https://devrainsolutionscdn.azureedge.net/devrain/ce051f54-e964-4b18-81de-45c157f48909.png" alt="">
                             <h3>SwitcherBot</h3>
                             <p>Chatbot to Live Operator Switch.</p>
-                            <a href="#"><span class="dev-sol">DevRain Solutions</span></a>
+                            <a href="#"><p class="dev-sol">DevRain Solutions</p></a>
                         </div>
                     </div>
                     <div class="col-lg-4 project">
@@ -165,7 +169,7 @@
                             <img class="img-project" src="https://devrainsolutionscdn.azureedge.net/devrain/928e49ad-6f6c-42a9-a633-930d26d2a23d.png" alt="">
                             <h3>ScrumBot</h3>
                             <p>A #Slack chatbot for daily scrum meetings.</p>
-                            <a href="#"><span class="dev-sol">DevRain Solutions</span></a>
+                            <a href="#"><p class="dev-sol">DevRain Solutions</p></a>
                         </div>
                     </div>
                     <div class="col-lg-4 project">
@@ -173,7 +177,7 @@
                             <img class="img-project" src="https://devrainsolutionscdn.azureedge.net/devrain/818d7ee0-3f57-46d9-b3dc-04dee31066d5.png" alt="">
                             <h3>TenderfootBot</h3>
                             <p>Personal Assistant for Newcomers.</p>
-                            <a href="#"><span class="dev-sol">DevRain Solutions</span></a>
+                            <a href="#"><p class="dev-sol">DevRain Solutions</p></a>
                         </div>
                     </div>
                 </div>
@@ -190,71 +194,71 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 partners"><a href="">
-                        <img class="part" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-4 partners"><a href="">
+                        <img class="part img-fluid" src="https://devrainsolutionscdn.azureedge.net/devrain/customers/microsoft.png" alt="">
                     </a></div>
                 </div>
                 <div class="row">

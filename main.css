@@ -66,6 +66,12 @@ ul {
   padding: 14px;
 
 }
+.nav-link {
+     display: inline;
+}
+.tog {
+    color: #f7706f;
+}
 .pink-button{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 14px;
@@ -118,15 +124,13 @@ a.nav1{
 .pink-line{
 /*    margin-left: 400px; */
     height: 0px;
-    width: 195px;
+    width: 100%;
     background: #f7706f;
     margin: auto;
 }
 
-.part {
-    height: auto;
-    width: 165px;
-    margin: 20px;
+.partners{
+    margin:20px 0;
 }
 
 .footer {
@@ -174,14 +178,19 @@ body h1{
     margin-left: 0px;
 }
 .card {
-    height: 365px;
+    height: auto;
 }
 .beet {
     margin: auto;
 }
+.card a p{
+    font-size:16px;
+    padding:0 5px;
+    margin-right:10px;
+}
 .dev-sol{
-    margin-left: 220px;
-
+    float: right;
+    margin-bottom:30px;
     background-color: rgba(5, 26, 29, 0.84);
     color: #ffffff;
 }
@@ -225,11 +234,30 @@ p.foot-p{
 
     .main-padding {
         padding-top: 0;
+
     }
     h1 {
         font-size:34px;
     }
+    .image{
+        margin-top: 40px;
+    }
+    hr {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
+    .section1 {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .dev-sol {
+        margin-left:40%;
+        margin-bottom:30px;
+    }
+    .container {
+        width: 100%;
+    }
 }
 
 
@@ -237,5 +265,13 @@ p.foot-p{
 
 @media screen and (max-width: 992px) {
 
+    .main-padding {
+        padding-top: 40px;
+    }
+    .dev-sol {
+        margin-left:40%;
+        margin-bottom:30px;
 
+
+    }
 }
