@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
@@ -15,22 +14,36 @@
 </head>
 <body>
     <header class="header" id="header">
+
         <div class="container">
-            <div class="row justify-content-between nav0">
-                <div class=" col-lg-4 ">
-                    <img id="logoDev" src="https://devrainsolutionscdn.azureedge.net/devrain/logo.png" alt="">
-                </div>
-                <div class="col-lg-7 n">
-                    <ul class="nav n">
-                        <li><a class="nav1" href="">About</a></li>
-                        <li><a class="nav1" href="">Publications</a></li>
-                        <li><a class="nav1" href="">Services</a></li>
-                        <li><a class="nav1" href="">Portfolio</a></li>
-                        <li><a class="nav1" id="pink" href="">Contact us</a></li>
+            <nav class="navbar navbar-expand-lg  ">
+                <a href=""><img id="logoDev" src="https://devrainsolutionscdn.azureedge.net/devrain/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link nav1" href="#">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav1" href="#">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav1" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav1" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link nav1" id="pink" href="#">Contact Us</a>
+                         </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
+
+
         <div class="container text-center main-padding">
             <div class="row">
 
@@ -294,11 +307,11 @@
     <section class="footer">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="https://devrainsolutionscdn.azureedge.net/devrain/logo.png" alt="DevRain Solutions" title="DevRain Solutions" itemprop="logo" style="height: 40px; margin-bottom: 20px;">
                     <p class="foot-p">DevRain Solutions is a full-cycle software development company with specialization in mobile, web, cloud and AI/ML development.</p>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <p class="foot-p">QUICK MENU</p>
                     <a class="footer-a" href=""><p class="foot-p">About </p></a>
                     <a class="footer-a" href=""><p class="foot-p">Publications </p></a>
@@ -307,14 +320,14 @@
                     <a class="footer-a" href=""><p class="foot-p">Customers and Partners </p></a>
                     <a class="footer-a" href=""><p class="foot-p">Download presentation </p> </a>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <p class="foot-p">KEY OFFERINGS</p>
                     <a class="footer-a" href=""><p class="foot-p">Software Development</p> </a>
                     <a class="footer-a" href=""><p class="foot-p">Artificial Intelligence </p></a>
                     <a class="footer-a" href=""><p class="foot-p">Offshore Team Building </p></a>
                     <a class="footer-a" href=""><p class="foot-p">Refer to Clutch profile </p></a>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <p class="foot-p">CONTACT US</p>
                     <a class="footer-a" href=""><p class="foot-p"><i class="far fa-envelope"></i> info@devrain.com </p></a>
                     <a class="footer-a" href=""><p class="foot-p"><i class="fas fa-map-marker-alt"></i> Kyiv, Ukraine </p> </a>
