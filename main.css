@@ -230,10 +230,53 @@ p.foot-p{
 
 /* ______________  Media  _____________________ */
 
+@media screen and (max-width: 992px) {
+
+    ul{
+        float: left;
+    }
+    .main-padding {
+        padding-top: 40px;
+    }
+    .dev-sol {
+        margin-left:40%;
+        margin-bottom:30px;
+    }
+    #header{
+        height: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .image {
+        margin-bottom: 40px;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
+    #header{
+        height: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .nav1 {
+        padding: 12px;
+    }
+    ul{
+       float: left;
+   }
+    #pink  {
+        width: 100%;
+        background-color: #f7706f;
+    }
+    .image {
+        margin-bottom: 20px;
+    }
 
     .main-padding {
-        padding-top: 0;
+        padding-top: 10px;
 
     }
     h1 {
@@ -263,15 +306,3 @@ p.foot-p{
 
 
 
-@media screen and (max-width: 992px) {
-
-    .main-padding {
-        padding-top: 40px;
-    }
-    .dev-sol {
-        margin-left:40%;
-        margin-bottom:30px;
-
-
-    }
-}
